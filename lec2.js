@@ -38,6 +38,23 @@ console.log(a == b);
 console.log(a > b && a === 5);
 
 //ternary operator
-// let age=18;
+let age = 18;
 let result = age >= 18 ? "adult" : "not adult";
 console.log(result);
+//conditional statement
+// grade calculator
+
+let n = prompt("enter your score");
+if (n <= 100 && n >= 90) {
+  console.log("A");
+} else if (n < 90 && n >= 80) {
+  console.log("B");
+} else if (n < 80 && n >= 70) {
+  console.log("C");
+} else if (n < 70 && n >= 60) {
+  console.log("D");
+} else if (n < 60 && n >= 0) {
+  console.log("F");
+} else {
+  console.log("invalid");
+}
